@@ -1,5 +1,6 @@
 body {
-	background-color: #0e9d57;
+	/* background-color: #D2C98A; */
+	background-color: var(--headings);
 }
 .posts-container {
 	display: flex;
