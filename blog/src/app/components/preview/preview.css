@@ -1,0 +1,8 @@
+.preview-container{
+    width: 500px;
+    max-width: 500px;
+    border: 15px solid #FD9584;
+    padding: 50px;
+    margin: auto;
+    font-size: xx-large;
+}

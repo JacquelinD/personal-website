@@ -19,7 +19,7 @@ const Preview = () => {
                     <p>{preview.body}</p>
                     <img className="image" src={preview.imgURL} alt={preview.title}/>
                </div>
-            ))};
+            ))}
         </div>
     );
 };

@@ -1,19 +1,28 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+//pages
+import About from './pages/About';
+import Blog from './pages/Blog';
+import Home from './pages/Home';
 
-// import Posts from "./components/posts/Posts";
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
-import Preview from './components/preview/preview';
+
+//components
+import Navbar from './components/header/navbar';
+
 
 function App() {
   return (
-    <div className="main-container">
-      <Header />
-      <Preview />
-      {/* <Posts /> */}
-      <Footer />
+    <Router>
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/about" element={<About />}/>
+        <Route path="/blog" element={<Blog />}/>
+        <Route path="/" element={<Home />}/>
+      </Routes>
     </div>
+    </Router>
   );
 }
 

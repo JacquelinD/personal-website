@@ -1,0 +1,18 @@
+.main-nav{
+    font-size: large;
+}
+
+.main-header{
+    height: 2000px;
+    width: auto;
+    border: 5px solid #FD9584;
+    padding:50px;
+    margin: 300px;
+}
+
+.quote{
+    height: auto;
+    width: auto;
+    padding: 50px;
+    margin: auto;
+}
