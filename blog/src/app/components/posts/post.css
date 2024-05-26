@@ -1,6 +1,5 @@
 .post-container {
 	/* background: #A66D45; */
-	background: var(--headings);
 	display: flex;
 	flex-direction: column;
 	padding: 3%;

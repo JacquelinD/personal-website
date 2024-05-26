@@ -1,7 +1,3 @@
-body {
-	/* background-color: #D2C98A; */
-	background-color: var(--headings);
-}
 .posts-container {
 	display: flex;
 	justify-content: center;
